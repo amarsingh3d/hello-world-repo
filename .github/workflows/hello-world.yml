@@ -1,0 +1,12 @@
+name: Hello World
+on:
+  push:
+jobs:
+  hello-job:
+    runs-on: ubuntu-lates
+    steps:
+      - name: echo text
+        run: echo "Hello, World"
+      
+  
+  
